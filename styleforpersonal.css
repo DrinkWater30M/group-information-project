@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./Image/background.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: cover;
+}
+
+.container {
+  width: 900px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background: hsl(0, 0%, 100%);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.container img {
+  height: 100%;
+  border-radius: 1em;
+}
+
+.container .information {
+  padding-left: 50px;
+  line-height: 35px;
+}
+
+.container .information h1 {
+  height: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.container .information span {
+  display: inline-block;
+  width: 150px;
+  font-weight: 700;
+}
+
+.container a {
+  position: absolute;
+  padding: 5px 30px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 2em;
+  color: hsl(0, 0%, 100%);
+  background-color: gray;
+}
